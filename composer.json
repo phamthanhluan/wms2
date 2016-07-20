@@ -13,5 +13,8 @@
         }
     },
     "minimum-stability": "dev",
-    "require": {}
+    "require": {
+        "tymon/jwt-auth": "0.5.*",
+        "dingo/api": "1.0.*@dev"
+    }
 }
