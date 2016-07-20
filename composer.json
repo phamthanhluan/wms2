@@ -1,12 +1,17 @@
 {
     "name": "seldat/wms2",
-    "description": "package model wms2",
+    "description": "model for wms2",
     "authors": [
         {
             "name": "Luan Pham",
             "email": "luan.pham@seldatinc.com"
         }
     ],
+    "autoload": {
+        "psr-4": {
+            "Seldat\\Wms2\\": "src"
+        }
+    },
     "minimum-stability": "dev",
     "require": {}
 }

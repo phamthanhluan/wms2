@@ -1,8 +1,9 @@
 <?php
 
-namespace App\Providers;
+namespace Seldat\Wms2;
 
 use Illuminate\Support\ServiceProvider;
+use Seldat\Wms2\Models;
 
 class Wms2ServiceProvider extends ServiceProvider
 {
